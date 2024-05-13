@@ -1,0 +1,5 @@
+{
+	"go.toolsEnvVars": {
+		"GOBIN": "/Users/abuxton/golang/bin"
+	}
+}
