@@ -1,12 +1,11 @@
+// Copyright Authors of lazy-tfui
 package main
 
 import (
-	"github.com/rivo/tview"
+	"github.com/abuxton/lazy-tfui/cmd"
 )
 
+func init() {
 func main() {
-	box := tview.NewBox().SetBorder(true).SetTitle("Lazy Terraform UI!")
-	if err := tview.NewApplication().SetRoot(box, true).Run(); err != nil {
-		panic(err)
-	}
+	cmd.Execute()
 }
