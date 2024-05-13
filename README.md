@@ -8,14 +8,28 @@ This is not a replacement for Terraform client, it is a terminal ui for the Terr
 ## Table of Contents <!-- omit in toc -->
 
 - [TODO](#todo)
+- [Installation](#installation)
+- [usage](#usage)
 
 
 ## TODO
 
-* Build out initial go project
-* Impliment config and credential handling
-* Impliment Terraform Cloud API
-* Impliment json response handling
-* Impliment brew install
+* [x] Build out initial go project
+* [ ] Impliment config and credential handling
+* [ ] Impliment Terraform Cloud API
+* [ ] Impliment json response handling
+* [ ] Impliment brew install
 
 
+## Installation
+
+with this version so far it's simply a go mod
+
+```shell
+git clone github.com/abuxton/lazy-tfui
+go run .
+```
+
+## usage
+
+[TODO]
